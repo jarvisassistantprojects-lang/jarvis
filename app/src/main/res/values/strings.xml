@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JARVIS</string>
+    <string name="notification_channel_name">JARVIS Voice Service</string>
+    <string name="notification_listening">JARVIS is listening for &#8220;Jarvis&#8221;</string>
+    <string name="notification_stop_action">Stop</string>
+    <string name="start_listening">Start Listening</string>
+    <string name="stop_listening">Stop Listening</string>
+    <string name="settings_title">Settings</string>
+</resources>
