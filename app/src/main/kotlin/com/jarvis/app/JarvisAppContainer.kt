@@ -13,7 +13,7 @@ import com.jarvis.platform.androidcontrol.apps.AppCatalog
 import com.jarvis.platform.androidcontrol.apps.OpenAppExecutor
 import com.jarvis.platform.voiceandroid.AndroidAudioSessionCoordinator
 import com.jarvis.platform.voiceandroid.AndroidSpeechRecognitionEngine
-import com.jarvis.platform.voiceandroid.AndroidTTSEngine
+import com.jarvis.platform.voiceandroid.SherpaTTSEngine
 import com.jarvis.platform.voiceandroid.VoskWakeWordEngine
 import com.jarvis.providers.localllm.LocalLLMProvider
 import com.jarvis.providers.localllm.UnavailableLocalInferenceBackend
