@@ -31,7 +31,7 @@ class JarvisAppContainer(private val context: Context) {
 
     val audioSessionCoordinator = AndroidAudioSessionCoordinator(context)
 
-    val ttsEngine = AndroidTTSEngine(context, audioSessionCoordinator)
+    val ttsEngine = SherpaTTSEngine(context, audioSessionCoordinator)
     val speechRecognitionEngine = AndroidSpeechRecognitionEngine(context, audioSessionCoordinator)
 
     val wakeWordEngine = VoskWakeWordEngine(
